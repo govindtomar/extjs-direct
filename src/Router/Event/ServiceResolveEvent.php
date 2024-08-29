@@ -1,6 +1,6 @@
 <?php
 /**
- * govindtomar/ext-direct
+ * govindtomar/extjs-direct
  *
  * @category   GT
  * @package    GT\ExtDirect

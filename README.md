@@ -1,8 +1,8 @@
-# ext-direct
+# extjs-direct
 
 A base component to integrate Sencha Ext JS Ext.direct into a PHP application
 
-[![Build Status](https://github.com/govindtomar/ext-direct/actions/workflows/php.yml/badge.svg)](https://github.com/govindtomar/ext-direct/actions/workflows/php.yml)
+[![Build Status](https://github.com/govindtomar/extjs-direct/actions/workflows/php.yml/badge.svg)](https://github.com/govindtomar/extjs-direct/actions/workflows/php.yml)
 
 ## Introduction
 
@@ -15,7 +15,7 @@ part of Sencha's *Ext JS* and *Sencha Touch*.
 > call batching, and server to client events.
 
 Currently this library is only used as the foundation
-of [govindtomar/ext-direct-bundle](https://github.com/govindtomar/ext-direct-bundle), a Symfony bundle that integrates *
+of [govindtomar/extjs-direct-bundle](https://github.com/govindtomar/extjs-direct-bundle), a Symfony bundle that integrates *
 Ext.direct* into a Symfony based application. We have not tried to use the library as a stand-alone component or in any
 other context than a Symfony environment, so the following is only how it should work theoretically without the bundle.
 We'd appreciate any help and contribution to make the library more useful outside the bundle.
@@ -24,7 +24,7 @@ We'd appreciate any help and contribution to make the library more useful outsid
 
 You can install this library using composer
 
-    composer require govindtomar/ext-direct
+    composer require govindtomar/extjs-direct
 
 or add the package to your composer.json file directly.
 
