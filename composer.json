@@ -1,0 +1,52 @@
+{
+    "name": "govindtomar/extjs-direct",
+    "type": "library",
+    "description": "A base component to integrate Sencha Ext JS Ext.direct into a PHP application",
+    "homepage": "https://github.com/govindtomar/extjs-direct",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Govind Tomar",
+            "email": "govindtomar01@gmail.com",
+            "homepage": "https://www.govindtomar.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GT\\ExtDirect\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GT\\ExtDirect\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "8.0.*|8.1.*",
+        "ext-json": "*",
+        "doctrine/annotations": "~1.13",
+        "jms/metadata": "~2.6",
+        "jms/serializer": "~3.17",
+        "symfony/dependency-injection": "~5.0",
+        "symfony/event-dispatcher": "~5.0",
+        "symfony/expression-language": "~5.0",
+        "symfony/http-foundation": "~5.0",
+        "symfony/security-core": "~5.0",
+        "symfony/validator": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/phpunit-bridge": "~5.0",
+        "symfony/stopwatch": "~5.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.0.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}
